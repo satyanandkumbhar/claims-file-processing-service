@@ -17,3 +17,4 @@ the code currently expects
 * Add unit tests
 * Make the Kafka URL and topic as application arguments
 * Add functioality to read file from Object Store
+* Better error handling

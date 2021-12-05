@@ -24,7 +24,7 @@ func ClaimsFileHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Call claimes file processor and read contents
+	// Call claim's file processor and read contents
 	fileprocessor.ReadAndPushClaims(rbody.ReqBody)
 
 	fmt.Fprintf(w, "File Processed\n")
